@@ -16,6 +16,8 @@ setup(
         'CommonMark',
         'bleach',
         'requests',
+        'json-merge-patch',
+        'cached-property',
     ],
     entry_points='''[console_scripts]
 libcoveocds = libcoveocds.cli.__main__:main''',

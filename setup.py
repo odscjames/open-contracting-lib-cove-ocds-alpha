@@ -16,6 +16,7 @@ setup(
         'CommonMark',
         'bleach',
         'requests',
+        'Django',  ########## TODO THIS SHOULD GO AT SOME POINT SOON!
     ],
     entry_points='''[console_scripts]
 libcoveocds = libcoveocds.cli.__main__:main''',
